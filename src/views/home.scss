@@ -1,4 +1,13 @@
 
 html {
-    
+    body {
+        div.reservationPanel {
+            width: 75%;
+            height: 150px;
+            position: relative;
+            margin: 0 auto;
+            margin-top: -110px;
+            background-color: #3367d6;
+        }
+    }
 }

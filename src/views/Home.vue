@@ -1,12 +1,18 @@
 <template>
     <div>
         <app-header></app-header>
-        
+        <div :class="$style.reservationPanel">
+            <app-custom-input></app-custom-input>
+            <app-custom-input></app-custom-input>
+            <app-button>SEARCH</app-button>
+        </div>
     </div>
 </template>
 
 <script>
 import Header from '../components/Header/Header';
+import CustomInput from '../components/CustomInput/CustomInput.vue';
+import Button from '../components/Button/Button';
 
 export default {
     name: 'Home',
@@ -17,6 +23,8 @@ export default {
     },
     components: {
         appHeader : Header,
+        appCustomInput : CustomInput,
+        appButton : Button
     }
 }
 </script>

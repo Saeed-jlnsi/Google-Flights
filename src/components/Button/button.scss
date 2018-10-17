@@ -1,0 +1,19 @@
+
+.button {
+    .btn {
+        padding: 3px 20px 3px 10px;
+        line-height: 30px;
+        border: none;
+        border-radius: 20px;
+        // box-shadow: 3px 5px 1px #999;
+        background-color: #ff4081;
+        font-size: 15px;
+        color: white;
+
+        .icon {
+            position: relative;
+            top: 7px;
+        }
+
+    }
+}
