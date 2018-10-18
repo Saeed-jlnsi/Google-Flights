@@ -1,7 +1,7 @@
 
 html {
     body {
-        div.reservationPanel {
+        .reservationPanel {
             width: 75%;
             height: 150px;
             position: relative;
@@ -9,6 +9,10 @@ html {
             margin-top: -110px;
             background-color: #3367d6;
             color: #fff;
+
+            .optionLists {
+                
+            }
 
             .departureReturnInputs {
                 padding: 50px 0 0 30px;

@@ -2,6 +2,10 @@
     <div>
         <app-header></app-header>
         <div :class="$style.reservationPanel">
+            <div :class="$style.optionLists">
+                <app-custom-option-list>Round Trip</app-custom-option-list>
+                <app-custom-option-list>1 Passenger</app-custom-option-list>
+            </div>
             <div :class="$style.departureReturnInputs">
                 <app-custom-input></app-custom-input>
                 <app-custom-input></app-custom-input>
@@ -15,8 +19,10 @@
 
 <script>
 import Header from '../components/Header/Header';
+import CustomOptionList from '../components/CustomOptionList/CustomOptionList';
 import CustomInput from '../components/CustomInput/CustomInput.vue';
 import Button from '../components/Button/Button';
+
 
 export default {
     name: 'Home',
@@ -28,7 +34,8 @@ export default {
     components: {
         appHeader : Header,
         appCustomInput : CustomInput,
-        appButton : Button
+        appButton : Button,
+        appCustomOptionList : CustomOptionList
     }
 }
 </script>
