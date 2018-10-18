@@ -2,8 +2,10 @@
     <div>
         <app-header></app-header>
         <div :class="$style.reservationPanel">
-            <app-custom-input></app-custom-input>
-            <app-custom-input></app-custom-input>
+            <div>
+                <app-custom-input></app-custom-input>
+                <app-custom-input></app-custom-input>
+            </div>
             <app-button>SEARCH</app-button>
         </div>
     </div>
