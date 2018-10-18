@@ -4,7 +4,7 @@
         <div :class="$style.reservationPanel">
             <div :class="$style.optionLists">
                 <app-custom-option-list>Round Trip</app-custom-option-list>
-                <app-custom-option-list>1 Passenger</app-custom-option-list>
+                <app-custom-option-list>Economy</app-custom-option-list>
             </div>
             <div :class="$style.departureReturnInputs">
                 <app-custom-input></app-custom-input>

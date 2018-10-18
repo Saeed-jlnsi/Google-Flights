@@ -3,6 +3,7 @@
     display: inline-block;
     float: left;
     margin: 10px 0 0 30px;
+    cursor: pointer;
 
     & > span {
         vertical-align: super;
@@ -10,6 +11,7 @@
 
     &:hover {
         background-color: rgba(255, 255, 255, 0.15);
+        
     }
 
     img {
