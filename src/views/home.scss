@@ -9,6 +9,15 @@ html {
             margin-top: -110px;
             background-color: #3367d6;
             color: #fff;
+
+            .departureReturnInputs {
+                padding: 50px 0 0 30px;
+            }
+
+            .searchButton {
+                position: relative;
+                top: 30px;
+            }
         }
     }
 }

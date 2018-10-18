@@ -1,6 +1,5 @@
 <template>
     <div :class="$style.button">
-        
         <button :class="$style.btn">
             <span :class="$style.icon">
             <img 

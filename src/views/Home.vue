@@ -2,11 +2,13 @@
     <div>
         <app-header></app-header>
         <div :class="$style.reservationPanel">
-            <div>
+            <div :class="$style.departureReturnInputs">
                 <app-custom-input></app-custom-input>
                 <app-custom-input></app-custom-input>
             </div>
-            <app-button>SEARCH</app-button>
+            <div :class="$style.searchButton">
+                <app-button>SEARCH</app-button>
+            </div>
         </div>
     </div>
 </template>
