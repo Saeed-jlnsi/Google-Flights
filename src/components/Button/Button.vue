@@ -1,6 +1,6 @@
 <template>
     <div :class="$style.button">
-        <button :class="$style.btn">
+        <div :class="$style.btn">
             <span :class="$style.icon">
             <img 
                 class="flt-fab-icon" 
@@ -8,7 +8,7 @@
                 alt="" height="24" width="24" data-atf="3" jstcache="1799">
             </span>
             <slot>Button</slot>
-        </button> 
+        </div> 
     </div>
 </template>
 

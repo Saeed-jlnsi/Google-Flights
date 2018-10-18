@@ -1,12 +1,13 @@
 
 .customOptionList {
-    display: inline-block;
-    float: left;
-    margin: 10px 0 0 30px;
+    // margin: 10px 0 0 30px;
+    & > span:first-of-type {
+        margin-right: 25px;
+    }
     cursor: pointer;
+    
 
     & > span {
-        vertical-align: super;
     }
 
     &:hover {

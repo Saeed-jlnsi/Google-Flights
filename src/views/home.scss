@@ -14,16 +14,24 @@ html {
             color: #fff;
 
             .optionLists {
-                
+                display: flex;
+                padding: 20px 40px 10px;
+
             }
 
             .departureReturnInputs {
-                padding: 50px 0 0 30px;
+                padding: 10px 40px;
+
+                & > div:first-of-type::after {
+                    
+                }
             }
 
             .searchButton {
+                width: 200px;
                 position: relative;
-                top: 30px;
+                bottom: -20px;
+                margin: 0 auto;
             }
         }
     }
