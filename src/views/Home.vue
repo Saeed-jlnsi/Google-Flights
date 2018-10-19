@@ -11,7 +11,7 @@
                 <app-custom-input></app-custom-input>
             </div>
             <div :class="$style.searchButton">
-                <app-button>SEARCH</app-button>
+                <app-button :icon="searchIconLink">SEARCH</app-button>
             </div>
         </div>
     </div>
@@ -28,7 +28,7 @@ export default {
     name: 'Home',
     data() {
         return {
-
+            searchIconLink: '//ssl.gstatic.com/images/icons/material/system/2x/search_white_24dp.png'
         }    
     },
     components: {

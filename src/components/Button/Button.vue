@@ -2,19 +2,22 @@
     <div :class="$style.button">
         <div :class="$style.btn">
             <span :class="$style.icon">
-            <img 
+            <img
+                v-if="icon"
                 class="flt-fab-icon" 
-                src="//ssl.gstatic.com/images/icons/material/system/2x/search_white_24dp.png" 
+                :src="link" 
                 alt="" height="24" width="24" data-atf="3" jstcache="1799">
             </span>
-            <slot>Button</slot>
+            <slot></slot>
         </div> 
     </div>
 </template>
 
 <script>
     export default {
-
+        props : {
+            icon:{}
+        }
     }
 </script>
 

@@ -1,19 +1,25 @@
 
 .customOptionList {
-    // margin: 10px 0 0 30px;
-    & > span:first-of-type {
-        margin-right: 25px;
-    }
-    cursor: pointer;
-    
-
-    & > span {
-    }
+    // margin-top: 10px;
+    padding: 5px;
 
     &:hover {
         background-color: rgba(255, 255, 255, 0.15);
-        
     }
+
+    cursor: pointer;
+    & > span:first-of-type {
+        margin-right: 25px;
+    }
+
+    // & > span {
+    //     padding: 5px;
+    // }
+
+    // &:hover {
+    //     background-color: rgba(255, 255, 255, 0.15);
+        
+    // }
 
     img {
         height: 25px;
