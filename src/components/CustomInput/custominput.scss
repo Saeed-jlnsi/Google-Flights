@@ -3,12 +3,12 @@
     margin: auto;
     // width: 260px;
     display: inline-block;
+
     .input {
         display: inline-block !important;
         background-color: rgba(255, 255, 255, 0.15);
+
         .icon {
-            // background: url(//www.gstatic.com/images/icons/material/system/2x/location_on_white_24dp.png);
-            color: white;
             font-size: 1em;
             display: inline-block;
             position: relative;
@@ -21,7 +21,6 @@
             }
         }
         input {
-            
             width: 200px;
             height: 48px;
             background-color: transparent;
@@ -30,9 +29,7 @@
             font-size: 1.2em;
             padding-left: 10px;
             color: white;
-            outline: none;
-            //FOR THE ACTIVE EFFECT
-            // border-bottom: 2px solid white; 
+            outline: none; 
         }
     }
 }

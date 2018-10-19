@@ -13,6 +13,9 @@
             <div :class="$style.searchButton">
                 <app-button :icon="searchIconLink">SEARCH</app-button>
             </div>
+            <div :class="$style.test">
+                <app-button>Test</app-button>
+            </div>
         </div>
     </div>
 </template>

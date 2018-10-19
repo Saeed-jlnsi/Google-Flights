@@ -8,7 +8,7 @@
                 :src="link" 
                 alt="" height="24" width="24" data-atf="3" jstcache="1799">
             </span>
-            <slot></slot>
+            <span><slot></slot></span>
         </div> 
     </div>
 </template>
