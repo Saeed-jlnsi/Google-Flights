@@ -5,8 +5,8 @@
             <img
                 v-if="icon"
                 class="flt-fab-icon" 
-                :src="link" 
-                alt="" height="24" width="24" data-atf="3" jstcache="1799">
+                src="../../assets/image/magnifying-glass.svg" 
+                alt="" height="20" width="20" data-atf="3" jstcache="1799">
             </span>
             <span><slot></slot></span>
         </div> 

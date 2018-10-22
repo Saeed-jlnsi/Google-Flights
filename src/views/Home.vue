@@ -13,9 +13,6 @@
             <div :class="$style.searchButton">
                 <app-button :icon="searchIconLink">SEARCH</app-button>
             </div>
-            <div :class="$style.test">
-                <app-button>Test</app-button>
-            </div>
         </div>
     </div>
 </template>
@@ -31,7 +28,7 @@ export default {
     name: 'Home',
     data() {
         return {
-            searchIconLink: '//ssl.gstatic.com/images/icons/material/system/2x/search_white_24dp.png'
+            searchIconLink: '../assets/image/magnifying-glass.svg'
         }    
     },
     components: {
